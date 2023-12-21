@@ -24,8 +24,7 @@ function Topbar() {
           }}
         />
 
-        <UserButton>
-        </UserButton>
+        <UserButton/>
 
         <div className='block ml-2'>
             <SignedIn>
