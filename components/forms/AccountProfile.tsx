@@ -47,7 +47,7 @@ const AccountProfile = ({ user }: Props) => {
   const isButtonDisabled = communitie === "" || !validCommunities.includes(communitie);
 
   return (
-    <div className="flex flex-col items-center w-1/2 ">
+    <div className="flex flex-col items-center justify-center">
       <select 
         value={communitie} 
         onChange={(e) => { setCommunitie(e.target.value); setError(""); }} 

@@ -18,11 +18,11 @@ async function Page() {
   };
 
   return (
-    <main className='flex justify-center'>
+    <main className='flex justify-center max-h-screen max-w-screen'>
       <div className='flex text-white absolute top-5 right-5 m-4'>
         <SignOutButton>
           <div className='flex cursor-pointer space-x-2 hover:opacity-50'>
-            <p className="text-base-medium font-light">Abandonner</p>
+            <p className="text-base-medium font-light hidden sm:block">Abandonner</p>
             <Image
               src='/assets/logout.svg'
               alt='logout'
