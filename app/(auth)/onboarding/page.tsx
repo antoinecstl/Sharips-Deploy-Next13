@@ -18,7 +18,7 @@ async function Page() {
   };
 
   return (
-    <main className='flex justify-center max-h-screen max-w-screen'>
+    <main className=''>
       <div className='flex text-white absolute top-5 right-5 m-4'>
         <SignOutButton>
           <div className='flex cursor-pointer space-x-2 hover:opacity-50'>
@@ -33,17 +33,17 @@ async function Page() {
         </SignOutButton>
       </div>
 
-      <section className='flex-cols max-w-4xl px-10 py-20 border-lg text-white justify-center mt-32'>
+      <section className='flex-cols max-w-4xl px-5 sm:px-10 py-20 text-white mx-auto mt-32'>
         <p className='text-heading2-semibold mb-2'>
           Bienvenue sur Sharips {userData.firstname} {userData.Lastname}
         </p>
         
         <div>
-          <span className='text-body-semibold'>
+          <span className='test-base-semibold sm:text-body-semibold'>
             Retrouve ici la bibliothèque documentaire fourni par des élèves pour des élèves
           </span>
         </div>
-        <section className="flex justify-end mt-8 mr-4">
+        <section className="flex mt-8">
           <AccountProfile user={userData}/>
         </section>
       </section>
