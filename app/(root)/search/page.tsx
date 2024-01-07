@@ -58,7 +58,7 @@ function Page() {
             {niveaux.map((niveau) => (
               <button
                 key={niveau}
-                className="mt-6 sm:mt-10 py-8 text-body-semibold rounded-xl shadow-sm bg-slate-900 transition duration-200 hover:bg-primary-500 text-white"
+                className="mt-6 sm:mt-10 py-8 sm:text-body-semibold rounded-xl shadow-sm bg-slate-900 transition duration-200 hover:bg-primary-500 text-white"
                 onClick={() => onNiveauChange(niveau)}
               >
                 Aéro {niveau}
@@ -73,7 +73,7 @@ function Page() {
         {niveaux.map((niveau) => (
           <button
             key={niveau}
-            className={`mb-4 mx-max py-4 text-body-normal rounded-xl shadow-sm transition duration-200 ${
+            className={`mb-4 mx-max py-4 text-base-normal sm:text-body-normal rounded-xl shadow-sm transition duration-200 ${
               selectedNiveau === niveau
                 ? 'bg-primary-500 text-white' 
                 : 'bg-slate-900 border border-slate-900 hover:border-primary-500 text-white'

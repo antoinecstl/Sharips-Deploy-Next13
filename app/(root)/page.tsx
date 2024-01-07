@@ -29,7 +29,7 @@ async function Home({
 
   return (
     <main>
-      <h1 className='head-text text-left mb-10'>Bienvenue dans la bibliothèque Sharips de l'IPSA</h1>
+      <h1 className='head-text text-left mb-10'>Bienvenue dans la bibliothèque Sharips</h1>
 
       <h1 className='text-heading3-semibold text-white text-left underline'>Dernières Contributions :</h1>
 
