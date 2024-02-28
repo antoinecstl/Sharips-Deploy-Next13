@@ -54,7 +54,7 @@ const AccountProfile = ({ user }: Props) => {
         className="font-sans mb-4 px-4 py-2 text-small-medium sm:text-base-medium border rounded-md shadow-sm bg-dark-2 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 "
       >
         <option value="" disabled hidden>Sélectionnez votre école</option>
-        <option value="communitie1">IPSA (Institut Physique des Sciences Appliquées)</option>
+        <option value="communitie1">IPSA (Institut polytechnique des sciences avancées)</option>
         {/* Ajoutez plus d'options si nécessaire */}
       </select>
       <Button 
